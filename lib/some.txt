@@ -1,0 +1,76 @@
+Container(
+    child: Column(
+      //mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Container(
+          width: double.infinity,
+          child: Text("Double Bed"),
+        ),
+        Container(
+          width: double.infinity,
+          child: Text("Non AC"),
+        ),
+        Container(
+          width: double.infinity,
+          child: Text("2 Windows"),
+        ),
+        Container(
+          width: double.infinity,
+          child: Text("No Food Delivery"),
+        ),
+        Container(
+          width: double.infinity,
+          child: Text("Wooden Floor"),
+        ),
+        Container(
+          width: double.infinity,
+          child: Text("Reading Table"),
+        ),
+      ],
+    ),
+  ),
+  SizedBox(
+    height: 10,
+  ),
+  Container(
+    child: Text("Results"),
+  ),
+  SizedBox(
+    height: 10,
+  ),
+  Container(
+    child: Row(
+      children: [
+        Container(
+          child: Text("Sample1"),
+        ),
+        Container(
+          child: Text("Sample2"),
+        ),
+      ],
+    ),
+  ),
+  Container(
+    child: Row(
+      children: [
+        Container(
+          child: Text("Sample3"),
+        ),
+        Container(
+          child: Text("Sample4"),
+        ),
+      ],
+    ),
+  ),
+  Container(
+    child: Row(
+      children: [
+        Container(
+          child: Text("Sample5"),
+        ),
+        Container(
+          child: Text("Sample6"),
+        ),
+      ],
+    ),
+  ),
